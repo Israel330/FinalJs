@@ -1,0 +1,209 @@
+
+/*---------------------------------------------------------------------------------------------------------texto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+*{
+  font-family: 'Dancing Script', cursive;
+}
+html {
+  font-size: 62.5%;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------body*/
+
+
+
+
+
+body {
+  
+ 
+  background-image: url("../img/anillo_3.jpg");
+}
+
+/*-------------------------------------------------------------------------------------------------------------nav*/
+
+.nav_1 {
+  background-color: rgba(130, 122, 83, 0.5);
+  font-size: 2rem;
+ 
+}
+
+
+
+.btn_s{
+  border-color: grey;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------gota de agua*/
+
+.divMarca{
+   display: inline-block;
+}
+   
+.marca_de_agua{
+   display: flex;
+     flex-direction: column; 
+       align-items: center;
+ } 
+
+
+div h1 {
+     width: 250px;
+       height: auto;
+         padding-top: 250px;
+           opacity: 90%;
+             font-size: 4rem;
+               color: rgba(130, 98, 9, 0.4);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------cards*/
+
+
+.section_flex{
+   display: flex;
+     flex-direction: row;
+       justify-content: center;
+         text-align: center;
+           margin-left: 10rem ;
+             margin-top: 10rem;
+
+}
+
+
+
+
+
+
+
+.card_conteiner{
+   display: grid;
+     grid-template-columns:  ;
+       width: 99%;
+         grid-row-gap: 100px;
+           grid-template-columns: repeat(3, 300px);
+             grid-template-rows: 300px 300px;
+               grid-template-areas:  "fot1 fot2 fot3"
+                                     "fot4 fot5 fot6";
+                                     align-items: center;
+                                       
+}
+
+.img_1{
+  grid-area: fot1;
+  }
+
+.img_2{
+  grid-area: fot2;
+  }
+
+.img_3{
+  grid-area: fot3;
+  } 
+
+.img_4{
+  grid-area: fot4;
+  }
+.img_5{
+ grid-area: fot5;
+}  
+.img_6{
+  grid-area: fot6;
+}
+
+div p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------contacto*/
+
+
+
+h3 {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+
+}
+
+.texto_2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------footer*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20rem;
+
+}
+             footer a{
+                 padding: 10 rem;
+                 margin-left: 10rem;
+                 justify-content: center;
+} 
+
+                     footer a img {
+                       justify-content: center;
+                       padding: 10 rem;
+                       margin-left:10rem ;
+}
+
+footer p{
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+/*---------------------------------------------------------------------------------------------media*/
+
+@media only screen and (max-width: 834px ) and (mind-width: 415px){
+
+.section_media {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+   }
+
+footer{
+  display: flex;
+  flex-direction: column ;
+   }
+}
+
+
+.p_1{
+  font-size: 3rem;
+  color: white;
+};
+
+.div_1{
+display: none;
+margin-top: 100px;
+
+};
+
+.tbody{
+  font-size: 3rem;
+};
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
